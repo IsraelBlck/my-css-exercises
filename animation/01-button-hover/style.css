@@ -17,3 +17,14 @@ button {
   padding: 16px 24px;
   text-align: center;
 }
+
+/* SOLUTION TRANSITION AND CURSOR*/
+
+button {
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.3);
+}
