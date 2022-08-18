@@ -12,7 +12,7 @@ img {
 }
 
 button {
-  font-family: Roboto, sans-serif;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   border: none;
   border-radius: 8px;
   background: #eee;
@@ -24,4 +24,55 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+
+/* SOLUTION */
+
+.header {
+  padding: 10px;
+  justify-content: space-between
+}
+.left-links, .right-links {
+  gap: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.left-links {
+ padding-left: 0%;
+}
+.content {
+  align-items: center;
+  text-align: center;
+  margin: auto;
+}
+.buttons {
+  padding: 10px;
+}
+.footer {
+  background-color: #eee;
+  padding: 10px;
+  margin-top: auto;
+  justify-content: space-between;
+
+}
+ul  {
+  list-style-type: none;
+
+}
+li a {
+  text-decoration: none;
+  color: black;
+}
+.flex-wrapper {
+  justify-content: space-between;
+  min-height: 90vh;
+}
+.flex {
+  display: flex; 
+}
+.flex-row {
+  flex-direction: row;
+}
+.flex-column {
+  flex-direction: column;
 }
