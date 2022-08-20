@@ -128,6 +128,8 @@ menu ul li:hover {
 }
 .nav {
   background-color: white;
+  display: inline-block;
+  padding: 10px;
 }
 
 .nav ul {
@@ -158,6 +160,8 @@ menu ul li:hover {
 }
 .menu ul,
 .menu li {
+  display: inline-block;
+  padding: 10px;
   list-style-type: none;
   text-transform: capitalize;
 }
